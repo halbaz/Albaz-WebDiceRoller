@@ -1,0 +1,49 @@
+body {
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: 20% auto;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 24px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.diceResult {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 60px;
+    text-align: right;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
